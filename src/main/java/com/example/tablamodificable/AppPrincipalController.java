@@ -75,7 +75,6 @@ public class AppPrincipalController implements Initializable {
 
         if (!Objects.equals(introducirNombre.getText(), "") && !Objects.equals(introducirFecha.getText(), "")){
             datosLista.add(new Pelicula(introducirNombre.getText(), introducirFecha.getText()));
-            System.out.println(introducirNombre.getText());
         } else {
             System.out.println("Uno de los dos valores esta vacio");
         }
